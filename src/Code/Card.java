@@ -12,7 +12,32 @@ package Code;
  * @author Sivagama
  */
 public abstract class Card 
-{
+{   private int face;
+    private String suit;
+ 
+    public Card() {
+    
+    }
+ 
+    public Card(int face, String suit) {
+    
+    }
+ 
+    public int getFace() {
+        return this.face;
+    }
+ 
+    public void setFace(int face) {
+        this.face = face;
+    }
+ 
+    public String getSuit() {
+        return this.suit;
+    }
+ 
+    public void setSuit(String suit) {
+        this.suit = suit;
+    }
     //default modifier for child classes
     
     /**

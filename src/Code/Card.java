@@ -12,15 +12,18 @@ package Code;
  * @author Sivagama
  */
 public abstract class Card 
-{   private int face;
+{   
+    private int face;
     private String suit;
  
     public Card() {
     
     }
  
-    public Card(int face, String suit) {
-    
+ //Using Card.java as a reference
+    public Card(int givenFace, String givenSuit) {
+        suit = givenSuit;
+        face = givenFace;
     }
  
     public int getFace() {

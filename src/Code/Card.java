@@ -13,32 +13,34 @@ package Code;
  */
 public abstract class Card 
 {   
-    private int face;
-    private String suit;
+    public enum Suits {hearts,spades,diamonds,clubs};
+    public enum Faces {ace,two,three,four,five,six,seven,eight,nine,ten,jack,king,queen,joker};
+    private Faces face;
+    private Suits suit;
  
     public Card() {
     
     }
  
  //Using Card.java as a reference
-    public Card(int givenFace, String givenSuit) {
-        suit = givenSuit;
-        face = givenFace;
+    public Card(Suits s, Faces f) {
+        suit = s;
+        face = f;
     }
  
-    public int getFace() {
-        return this.face;
+    public Faces getFace() {
+        return face;
     }
  
-    public void setFace(int face) {
+    public void setFace(Faces face) {
         this.face = face;
     }
  
-    public String getSuit() {
-        return this.suit;
+    public Suits getSuit() {
+        return suit;
     }
  
-    public void setSuit(String suit) {
+    public void setSuit(Suits suit) {
         this.suit = suit;
     }
     //default modifier for child classes

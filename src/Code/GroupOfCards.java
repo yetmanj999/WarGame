@@ -14,7 +14,7 @@ import java.util.Collections;
  * The group of cards has a maximum size attribute which is flexible for reuse.
  * @author Sivagama
  */
-public class GroupOfCards 
+public class GroupOfCards extends Card
 {
    
     //The group of cards, stored in an ArrayList
@@ -24,6 +24,7 @@ public class GroupOfCards
     public GroupOfCards(int givenSize)
     {
         size = givenSize;
+        this.cards = new ArrayList<card>(size);
     }
     
     /**
@@ -33,6 +34,18 @@ public class GroupOfCards
     public ArrayList<Card> showCards()
     {
         return cards;
+    }
+    
+    public void remove (Card card) {
+    
+    cards.remove(0);
+    
+    }
+    
+    public void add (Card card) {
+    
+    cards.add(card);
+    
     }
     
     public void shuffle()

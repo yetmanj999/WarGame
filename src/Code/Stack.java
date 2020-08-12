@@ -1,4 +1,10 @@
 package Code;
+/* 
+*
+* @authors: Jake Yetman, Muhammad Hassan Asif, Joshua Santos, Kolade Siyanbola
+* Date: 8/11/20
+* Description: Program creates card stacks for computer and player.
+*/
 
 import java.util.List;
 

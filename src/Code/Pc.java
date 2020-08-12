@@ -2,7 +2,7 @@ package Code;
 /* 
  * @authors: Jake Yetman, Joshua Santos, Kolade Siyanbola, Muhammad Hassan Asif
  * Date: 8/11/20
- * Description: Program creates various card stacks for Player to use.
+ * Description: Program handles functions pertaining to card stacks.
  */
 public class Pc {
 

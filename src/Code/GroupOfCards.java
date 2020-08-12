@@ -4,6 +4,11 @@
  * Add your name as a modifier and the date!
  */
 package Code;
+/*
+ * @authors: Jake Yetman, Joshua Santos, Kolade Siyanbola, Muhammad Hassan Asif
+ * Date: 8/11/20
+ * Description: Program extends Card to create a group of cards for other programs.
+ */
 
 import java.util.ArrayList;
 import java.util.Collections;

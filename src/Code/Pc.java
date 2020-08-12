@@ -1,5 +1,9 @@
 package Code;
-
+/* 
+ * @authors: Jake Yetman, Joshua Santos, Kolade Siyanbola, Muhammad Hassan Asif
+ * Date: 8/11/20
+ * Description: Program creates various card stacks for Player to use.
+ */
 public class Pc {
 
     private Stack discardStack;

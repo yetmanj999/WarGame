@@ -1,5 +1,9 @@
 package Code;
-
+/* 
+ * @authors: Jake Yetman, Joshua Santos, Kolade Siyanbola, Muhammad Hassan Asif
+ * Date: 8/11/20
+ * Description: Program plays War game.
+ */
 import java.util.ArrayList;
 import java.util.List;
 

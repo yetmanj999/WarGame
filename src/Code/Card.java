@@ -9,48 +9,12 @@ package Code;
  * A class to be used as the base Card class for the project. Must be general
  * enough to be instantiated for any Card game. Students wishing to add to the code 
  * should remember to add themselves as a modifier.
- * @author Sivagama
+ * @original author: Sivagama
+ * @authors: Jake Yetman, Joshua Santos, Kolade Siyanbola, Muhammad Hassan Asif
+ * Date: 8/11/20
  */
 public class Card
-{
-    
-//    
-//    public enum Suits {hearts,spades,diamonds,clubs};
-//    public enum Faces {ace,two,three,four,five,six,seven,eight,nine,ten,jack,king,queen,joker};
-//    private Faces face;
-//    private Suits suit;
-// 
-//    public Card() {
-//    
-//    }
-// 
-// //Using Card.java as a reference
-//    public Card(Suits s, Faces f) {
-//        suit = s;
-//        face = f;
-//    }
-// 
-//    public Faces getFace() {
-//        return face;
-//    }
-// 
-//    public void setFace(Faces face) {
-//        this.face = face;
-//    }
-// 
-//    public Suits getSuit() {
-//        return suit;
-//    }
-// 
-//    public void setSuit(Suits suit) {
-//        this.suit = suit;
-//    }
-//    
-     
-    // End of previous version 
-    
-    
-    
+
     private int face; //initialize the rank (2,3,4...King, Ace)
     private int suit; //initialize the suit (spades, hearts...)
     
@@ -124,11 +88,5 @@ public class Card
     }//end toString
     
     
-    //default modifier for child classes
-    
-    /**
-     * Students should implement this method for their specific children classes 
-     * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
-     */
-    
+  
 }// End of class Card
